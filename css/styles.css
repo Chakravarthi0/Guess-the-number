@@ -10,3 +10,11 @@
 #currentGuess,#resetButton{
     display: none;
 }
+
+.btn{
+    border-radius: 5%;
+}
+
+th,td{
+    text-align: center;
+}
