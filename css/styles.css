@@ -11,6 +11,10 @@
     display: none;
 }
 
+#feedback{
+    display: none;
+}
+
 .btn{
     border-radius: 5%;
 }
