@@ -56,7 +56,7 @@ check.onclick = function () {
     }
     else {
 
-        message.setAttribute("class","alert alert-success col-6 offset-3")
+        message.setAttribute("class","alert alert-success col-md-6 offset-md-3")
         message.innerHTML = "You guessed it right";
         check.style.display = "none";
         reset.innerText = "Start new game";
@@ -78,7 +78,7 @@ start.onclick = function () {
 reset.onclick = function () {
     main();
     currentGuess.setAttribute("class", "form-control col-form-label-lg");
-    message.setAttribute("class","alert alert-warning col-6 offset-3")
+    message.setAttribute("class","alert alert-warning col-md-6 offset-md-3")
     currentGuess.value = "";
     guessArray = [];
     history.innerHTML =  "";
